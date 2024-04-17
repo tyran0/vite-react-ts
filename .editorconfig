@@ -1,0 +1,29 @@
+root = true
+
+[src/**.{ts,tsx}]
+indent_style = tab
+tab_width = 2
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[{.eslintrc.cjs,.gitignore,index.html,README.md,vite.config.ts}]
+indent_style = tab
+tab_width = 2
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[{package,tsconfig,tsconfig.node}.json]
+indent_style = tab
+tab_width = 2
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[{.editorconfig,.prettierignore,.prettierrc}]
+indent_style = tab
+tab_width = 2
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
